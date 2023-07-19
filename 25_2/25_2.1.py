@@ -7,8 +7,6 @@ def div(x):
     return ans
 
 def prime(x):
-    if x < 2:
-        return False
     if x == 2:
         return True
     for i in range(2, int(x**0.5) + 1):
